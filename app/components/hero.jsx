@@ -24,7 +24,7 @@ export default function Hero() {
       <div className="hero-container">
         <div className={`hero-content ${isVisible ? "fade-in" : ""}`}>
           <h2 className="hero-name">Ayush Sharma</h2>
-          <p className="hero-tagline">Backend Developer | Java + Spring Boot | Learning daily, scaling boldly.</p>
+          <p className="hero-tagline">Software Engineer | Java + Spring Boot | Learning daily, scaling boldly.</p>
           <p className="hero-description">
             I'm a backend developer with strong expertise in Java, Spring Boot, REST APIs, and database design. I
             specialize in building scalable, efficient systems that power modern applications and drive business growth.

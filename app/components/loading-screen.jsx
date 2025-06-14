@@ -30,7 +30,7 @@ export default function LoadingScreen() {
           <span>m</span>
           <span>a</span>
         </div>
-        <p className="loading-subtitle">Backend Developer</p>
+        <p className="loading-subtitle">Software Engineer</p>
       </div>
       <style jsx>{`
         .loading-screen {
