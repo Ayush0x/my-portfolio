@@ -1,3 +1,13 @@
+/**
+ * Hero section component
+ *
+ * This component is the top section of the website. It features a header with
+ * an animated introduction and a call-to-action button.
+ *
+ * It uses the `useState` hook to control the visibility of the text and the
+ * `useEffect` hook to set the state of the text to visible when the component is
+ * mounted.
+ */
 "use client"
 
 import { useEffect, useState } from "react"

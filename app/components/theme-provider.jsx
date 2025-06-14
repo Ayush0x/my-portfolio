@@ -1,3 +1,16 @@
+/**
+ * ThemeProvider component
+ *
+ * @description
+ * Provides a theme context to the entire application,
+ * allowing components to access the current theme
+ * and to switch between light and dark modes.
+ *
+ * @example
+ * <ThemeProvider>
+ *   <App />
+ * </ThemeProvider>
+ */
 "use client"
 
 import { createContext, useContext, useEffect, useState } from "react"

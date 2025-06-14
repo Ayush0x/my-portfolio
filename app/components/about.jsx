@@ -1,3 +1,13 @@
+/**
+ * About section component
+ *
+ * This component renders the about section of the portfolio and animates in
+ * when the section is visible.
+ *
+ * @component
+ * @example
+ * <About />
+ */
 "use client"
 
 import { useEffect, useRef, useState } from "react"

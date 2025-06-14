@@ -1,3 +1,9 @@
+/**
+ * The Projects component displays a list of projects I have worked on.
+ * It makes use of the `isVisible` state and `sectionRef` to control the visibility of the section.
+ *
+ * @return {ReactElement} The Projects component.
+ */
 "use client"
 
 import { useEffect, useRef, useState } from "react"

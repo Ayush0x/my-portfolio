@@ -1,3 +1,27 @@
+/**### `Footer` Component
+
+- **Purpose**:
+  - The `Footer` component is designed to provide a consistent footer section across the application, displaying essential contact and social media links.
+
+- **Features**:
+  - Displays copyright information.
+  - Provides links to email, LinkedIn, and GitHub profiles.
+  - Contains responsive styling to ensure the footer looks good on all devices.
+
+- **Structure**:
+  - The component is wrapped in a `<footer>` tag with a class name `footer`.
+  - Contains a main `<div>` with a class name `container` to center the content and provide padding.
+  - Inside the container, there is another `<div>` with a class name `footer-content` that uses flexbox to layout the text and links.
+  - Links are styled with hover effects for smooth transitions.
+
+- **Styling**:
+  - The footer has a dark background with white text for contrast.
+  - Flexbox is used to align items horizontally and ensure proper spacing between elements.
+  - The links have a transition effect to change opacity on hover for a visual cue.
+
+- **Usage**:
+  - Import and use the `Footer` component at the bottom of the main page or layout to ensure it is displayed on all pages.
+  - Customize the links and text as needed to reflect the correct contact information and branding.*/
 "use client"
 
 export default function Footer() {

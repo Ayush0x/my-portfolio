@@ -1,3 +1,12 @@
+/* <<<<<<<<<<<<<<  ✨ Windsurf Command ⭐ >>>>>>>>>>>>>>>> */
+/**
+ * RootLayout Component
+ *
+ * @component
+ *
+ * @description
+ * The RootLayout component serves as the primary layout wrapper for the entire application.
+    */
 import { ThemeProvider } from "./components/theme-provider"
 import "./globals.css"
 

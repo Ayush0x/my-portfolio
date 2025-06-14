@@ -1,3 +1,19 @@
+/**
+ * Contact Component
+ *
+ * The `Contact` component provides a form for users to send a message. It manages form state and handles input changes and form submission.
+ *
+ * State:
+ * - `isVisible`: A boolean indicating if the component is visible on the page.
+ * - `formData`: An object containing the form input values: `name`, `email`, and `message`.
+ *
+ * Functions:
+ * - `handleInputChange`: Updates `formData` state when form inputs change.
+ * - `handleSubmit`: Handles form submission, prevents default form behavior, logs form data, displays a thank-you alert, and resets the form.
+ *
+ * Usage:
+ * Include this component within a page to provide users with a way to contact you. Ensure necessary styling and any additional logic for handling form submission is implemented as needed.
+ */
 "use client"
 
 import { useEffect, useRef, useState } from "react"

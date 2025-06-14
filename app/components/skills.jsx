@@ -1,3 +1,29 @@
+/**
+ * Skills Component
+ *
+ * This component showcases categorized skills with visual proficiency indicators.
+ * It has a smooth fade-in effect when it comes into view.
+ *
+ * State:
+ * - isVisible: boolean to track if the component is in view for animation.
+ *
+ * Refs:
+ * - sectionRef: used to observe the component's visibility on the viewport.
+ *
+ * Skill Categories:
+ * - Languages: Contains skills with proficiency levels (e.g., Java, JavaScript, Python).
+ * - Frameworks: Lists frameworks like Spring Boot with proficiency levels.
+ * - Databases: Includes database technologies with proficiency levels.
+ *
+ * Features:
+ * - Intersection Observer API for visibility tracking.
+ * - CSS classes are used for styling and animations.
+ *
+ * Usage:
+ * ```jsx
+ * <Skills />
+ * ```
+ */
 "use client"
 
 import { useEffect, useRef, useState } from "react"

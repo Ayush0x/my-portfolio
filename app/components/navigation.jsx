@@ -1,3 +1,26 @@
+/**
+ * Navigation Component
+ *
+ * This component represents a responsive navigation bar for the portfolio application.
+ *
+ * Features:
+ * - Smooth scrolling to sections
+ * - Active section highlighting
+ * - Mobile-responsive menu
+ *
+ * State:
+ * - `isScrolled`: Boolean state to track if the page has been scrolled.
+ * - `isMobileMenuOpen`: Boolean state to track if the mobile menu is open.
+ *
+ * Effects:
+ * - Sets up an event listener to handle scroll events for updating the `isScrolled` state.
+ *
+ * Methods:
+ * - `scrollToSection`: Scrolls smoothly to a specific section by its ID and closes the mobile menu.
+ *
+ * Usage:
+ * This component should be used as a part of the main page layout to provide navigation functionality.
+ */
 "use client"
 
 import { useState, useEffect } from "react"

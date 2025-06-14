@@ -1,3 +1,9 @@
+/**
+ * ScrollToTop component
+ * A client-side component that renders a "scroll to top" button
+ * if the user has scrolled more than 300px from the top of the page.
+ * Clicking the button will smoothly scroll the user back to the top of the page.
+ */
 "use client"
 
 import { useState, useEffect } from "react"

@@ -1,3 +1,11 @@
+/**
+ * @description
+ * A component to display certifications earned
+ * @prop {function} setIsVisible - sets state to show/hide section
+ * @prop {object} sectionRef - reference to section element
+ * @prop {array} certifications - array of certification objects
+ * @returns {JSX.Element} - a list of certifications
+ */
 "use client"
 
 import { useEffect, useRef, useState } from "react"

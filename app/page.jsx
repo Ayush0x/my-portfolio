@@ -1,3 +1,13 @@
+/**
+ * @file
+ * @copyright 2023 Ayush Verma
+ * @license MIT
+ * @summary Portfolio application's main page
+ * @description
+ * This page composes all sections of the portfolio application.
+ * It uses client-side rendering and Next.js's built-in
+ * `useState` and `useEffect` hooks.
+ */
 "use client"
 
 import { useState, useEffect } from "react"

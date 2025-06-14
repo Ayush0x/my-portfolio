@@ -1,3 +1,18 @@
+/**
+ * Education Component
+ *
+ * The `Education` component provides a timeline of academic qualifications.
+ *
+ * State:
+ * - `isVisible`: A boolean indicating if the component is visible on the page.
+ *
+ * Functions:
+ * - `handleScroll`: Handles scroll event, sets `isVisible` state when component is in view, and logs the event.
+ *
+ * Usage:
+ * Include this component within a page to provide users with information about your education.
+ * Ensure necessary styling and any additional logic for handling scroll event is implemented as needed.
+ */
 "use client"
 
 import { useEffect, useRef, useState } from "react"

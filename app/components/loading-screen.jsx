@@ -1,3 +1,14 @@
+/**
+ * LoadingScreen component
+ *
+ * This component renders a loading animation while the site is rendering on the server.
+ *
+ * The loading animation is rendered on the client and server, so it's visible during the initial page load.
+ *
+ * The loading animation is removed once the site is rendered on the client.
+ *
+ * @see {@link https://nextjs.org/docs/basic-features/pages#server-side-rendering}
+ */
 "use client"
 
 export default function LoadingScreen() {

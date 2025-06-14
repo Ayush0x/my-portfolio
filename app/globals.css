@@ -1,3 +1,13 @@
+/**
+ * Global styles for the application.
+ *
+ * This file is a part of the application's critical CSS and is inlined in the
+ * HTML document head. It provides the base styles for the application's layout,
+ * typography, and colors.
+ *
+ * The styles are organized into sections, each with a clear label, for ease of
+ * maintenance and debugging.
+ */
 :root {
   --bg-primary: #ffffff;
   --bg-secondary: #f8fafc;
