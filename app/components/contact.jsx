@@ -127,45 +127,29 @@ export default function Contact() {
               </div>
             </div>
 
-            <form className="contact-form" onSubmit={handleSubmit}>
-              <div className="form-group">
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Your Name"
-                  value={formData.name}
-                  onChange={handleInputChange}
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Your Email"
-                  value={formData.email}
-                  onChange={handleInputChange}
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <textarea
-                  name="message"
-                  placeholder="Your Message"
-                  rows="5"
-                  value={formData.message}
-                  onChange={handleInputChange}
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" className="submit-btn">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <line x1="22" y1="2" x2="11" y2="13" />
-                  <polygon points="22,2 15,22 11,13 2,9 22,2" />
-                </svg>
-                Send Message
-              </button>
-            </form>
+            <form
+  className="contact-form"
+  action="https://formspree.io/f/xeogbqyg"  // <-- replace with your actual endpoint
+  method="POST"
+>
+  <div className="form-group">
+    <input type="text" name="name" placeholder="Your Name" required />
+  </div>
+  <div className="form-group">
+    <input type="email" name="email" placeholder="Your Email" required />
+  </div>
+  <div className="form-group">
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+  </div>
+  <button type="submit" className="submit-btn">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <line x1="22" y1="2" x2="11" y2="13" />
+      <polygon points="22,2 15,22 11,13 2,9 22,2" />
+    </svg>
+    Send Message
+  </button>
+</form>
+
           </div>
         </div>
       </div>
